@@ -20,13 +20,11 @@
 				<!-- Intro -->
 					<div id="intro">
 						<h1>Saul Vilchez</h1>
-						<h3>Game Developer and Software Engineer</h3>
-						<p>I am a graduated software engineer currently living in Iceland. I am passionate in developing games and software applications.</p>
-						<p>I enjoy the development and design of games, backend, embedded system. Where I use my critical thinking and problem-solving skills to offer flexible and elegant solutions.</p>
-						<p>During my studies and internships, I have gained experience in game development, backend and front-end development. </p>
-						<p>Skilled in Unity, C#, Python, Git, C++, SDL2, JavaScript, Java, PHP, SQL and NOSQL. </p>
-						<p>Confident with the use game engines like Unity3D and SDL2. </p>
-						<p>Experience with the frameworks Django, ASP.NET, NodeJS, ReactJS.</p>
+						<h3>Software Engineer</h3>
+						<p>I am a graduated software engineer currently living in Iceland. I am passionate in developing 3D software and Research Machine Learning.</p>
+						<p>During my studies and internships, I have gained experience in machine learning, game development and web development. </p>
+						<p>Skilled in Unity, C#, Python, Git, C++, OpenGL, Shaders, Deep Learning, Reinforcement Learning, Pytorch. </p>
+						<p>Experience with the frameworks such as Django, ASP.NET, NodeJS.</p>
 							<p><a href="https://github.com/Galleta12" target="_blank" >GitHub Profile Link</a> </p>
 							<p><a href="https://www.linkedin.com/in/saul-vilchez-84167a209/" target="_blank" >Linkedin Profile Link</a> </p>
 						<ul class="actions">
@@ -63,9 +61,184 @@
 						
 						<!-- Posts -->
 						<section class="posts">
+						
+						
+										
+							<article>
+								<header>
+										
+									<h2><a href="https://github.com/Galleta12/RLGYMMIMIC/tree/amp1" target="_blank">Deep Reinforcement Learning for Physics-Based
+										Animation of Human Motion</h2>
+									</header>
+									
+									<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+										<a href="https://github.com/Galleta12/RLGYMMIMIC/tree/amp1" target="_blank">
+											<img src="images/Thesis2.png" alt="" style="width: 100%; max-width: 400px; height: auto;" />
+										</a>
+										<video controls style="width: 100%; max-width: 400px; height: auto;">
+											<source src="video/Media1.mp4" type="video/mp4">
+											Your browser does not support the video tag.
+										</video>
+									</div>
+									
+									<p>
+										This project was part of my 60 ECTS Master’s Thesis. The objective was to reconstruct human motion using Deep Reinforcement Learning.  
+										The project is divided into two parts. The first part focuses on motion mimicking, where the goal is for a humanoid character to imitate reference motion data.  
+										Using PPO (Proximal Policy Optimization), the agent learns to apply torque forces through SPD (Stable Proportional-Derivative) controllers, enabling each joint of the humanoid to replicate the motion accurately.  
+										
+										The second part involves using a dataset of reference motions and a Discriminator Network to mimic and blend the motions while simultaneously performing a task. In my thesis, the task was for the agent to move toward a target.  
+										
+										The project was built using PyTorch for PPO and MuJoCo for physics simulation.  
+										You can learn more about the project by clicking the "View Thesis" button.  
+										
+										Please note that the source code is still a work in progress and requires further cleanup and organization.
+									</p>
+									
+										
+									<ul class="actions special">
+										<li><a href="https://github.com/Galleta12/RLGYMMIMIC/tree/amp1" target="_blank" class="button">View Project</a></li>
+										<li><a href="https://skemman.is/handle/1946/49144" target="_blank" class="button">View Thesis</a></li>
+									
+									</ul>
+						</article>
+
+
+						
+
+
+
+					
+
+
+
+
+
+
+									
+						<article>
+								<header>
+										
+									<h2><a href="https://github.com/Galleta12/Rl-and-BT-Examples" target="_blank">Combining Behaviour Tree and Reinforcement Learning</h2>
+									</header>
+									
+									<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+										<a href="https://github.com/Galleta12/Rl-and-BT-Examples" target="_blank">
+											<img src="images/UnityBT.png" alt="Unity BT" style="width: 100%; max-width: 400px; height: auto;" />
+										</a>
+										<a href="https://github.com/Galleta12/Rl-and-BT-Examples" target="_blank">
+											<img src="images/UnityML.png" alt="Unity ML" style="width: 100%; max-width: 400px; height: auto;" />
+										</a>
+									</div>
+									
+									<p>
+										This project was part of an independent study I completed at the University of Reykjavik.  
+										I developed a tool in Unity to combine Behaviour Trees and Reinforcement Learning for creating AI agents.  
+										Using various resources, I implemented a custom Behaviour Tree system along with its own editor, built using Unity’s UI Builder and GraphView API.  
+										Finally, with Unity ML-Agents, I integrated the Behaviour Tree editor with Reinforcement Learning.  
+										In essence, the agent learns which node to execute in the Behaviour Tree through reinforcement learning.  
+										To test the system, I re-implemented two of the Unity ML-Agents examples using both Behaviour Trees and Reinforcement Learning.
+									</p>
+										
+									<ul class="actions special">
+										<li><a href="https://github.com/Galleta12/Rl-and-BT-Examples" target="_blank" class="button">View Project</a></li>
+									
+									</ul>
+						</article>
+
+						
+
+
+
+							
+						<article>
+							<header>
+									
+								<h2><a href="https://github.com/Galleta12/ComputeShaderPhysic" target="_blank">Compute Shaders Unity</h2>
+								</header>
+								<a href="https://github.com/Galleta12/ComputeShaderPhysic" target="_blank" class="image fit"><img src="images/computeshaders.png"   height="400" alt="" /></a>
+								<p>
+									In this project, I explored compute shaders in Unity by implementing a simple physics simulator for spheres.  
+									There are three different implementations: the first runs the physics on the CPU, the second uses compute shaders for physics, and the third uses both compute shaders and a surface shader.  
+									In the last implementation, the GPU handles both the rendering of the spheres and the physics simulation, resulting in the best performance among the three.
+								</p>
+									
+								<ul class="actions special">
+									<li><a href="https://github.com/Galleta12/ComputeShaderPhysic" target="_blank" class="button">View Project</a></li>
+								
+								</ul>
+						</article>
+
+
+
+
+
+
+
+						
+
+
+							
+							<article>
+								<header>
+										
+									<h2><a href="https://github.com/Galleta12/OpenGLMesh" target="_blank">3D OpenGL Mesh and Shaders</h2>
+									</header>
+									<a href="https://github.com/Galleta12/OpenGLMesh" target="_blank" class="image fit"><img src="images/tesallation.png"   height="400" alt="" /></a>
+									<p>In this project, I explored more advanced computer graphics features using OpenGL.  
+										I implemented a system that allows viewing the scene through three different cameras: a free-look camera, an orthographic camera, and a first-person camera.  
+										I used the Assimp library to load 3D meshes into the scene.  
+										I also used the tessellation shader to render Bézier curves and visualize the interpolated movement of objects.  
+										Additionally, I utilized the geometry shader to generate new geometry from vertices, which enabled an explosion effect.  
+										For lighting, I implemented a Phong spotlight model to illuminate the scene.
+									</p>
+										
+									<ul class="actions special">
+										<li><a href="https://github.com/Galleta12/OpenGLMesh" target="_blank" class="button">View Project</a></li>
+									
+									</ul>
+							</article>
+
+							
+							
+							
+							
+							
 							
 							
 							<article>
+								<header>
+										
+									<h2><a href="https://github.com/Galleta12/OpenGLMaze" target="_blank">3D OpenGL Maze</h2>
+									</header>
+									<a href="https://github.com/Galleta12/OpenGLMaze" target="_blank" class="image fit"><img src="images/3DMaze.png"   height="400" alt="" /></a>
+									<p>This project is my first 3D OpenGL project. The main features include lighting and texture shaders, as well as a custom camera system.  
+										It features two cameras: a 3D third-person follow camera and an orthographic camera in the top-right corner.  
+										I also implemented a simple ECS (Entity Component System) to manage the entities in the scene.</p>
+										
+									<ul class="actions special">
+										<li><a href="https://github.com/Galleta12/OpenGLMaze" target="_blank" class="button">View Project</a></li>
+									
+									</ul>
+							</article>
+
+
+							<article>
+								<header>
+										
+									<h2><a href="https://github.com/Galleta12/2DGameOpengl" target="_blank">2D OpenGL Collisions</h2>
+									</header>
+									<a href="https://github.com/Galleta12/2DGameOpengl" target="_blank" class="image fit"><img src="images/2DOpenGL.png"   height="400" alt="" /></a>
+									<p>This project was developed for the Computer Graphics course at the University of Reykjavik.  
+										It is a simple 2D game; however, the main feature of the project is its collision detection algorithm.  
+										I implemented the SAT (Separating Axis Theorem) algorithm from scratch to detect collisions.  
+										The project was built using C++ and OpenGL.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/Galleta12/2DGameOpengl" target="_blank" class="button">View Project</a></li>
+									
+									</ul>
+							</article>
+							
+							<!-- <article>
 								<header>
 										
 									<h2><a href="https://github.com/Galleta12/First-Playable-Game" target="_blank">Game Prototype</h2>
@@ -78,7 +251,7 @@
 									<ul class="actions special">
 										<li><a href="https://github.com/Galleta12/First-Playable-Game" target="_blank" class="button">View Project</a></li>
 									</ul>
-								</article>
+								</article> -->
 								<article>
 									<header>
 											
